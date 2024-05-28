@@ -93,7 +93,7 @@ Nobious have provided some CSV files you can use for this demo.
         - Utility - Water & Other
         - Polyester Overlay
 3. **Send to API**: Click the "Send to API" button to send the processed CSV content to the specified API Gateway endpoint.
-4. **View API Response**: The response from the API will be displayed in the application.
+4. **View API Response**: The response from the API will be displayed in the application, formatted as the model prediction for the project.
 
 *Team*:
 
