@@ -88,6 +88,12 @@ Nobious have provided some CSV files you can use for this demo.
         - Polyester Overlay
 3. **Send to API**: Click the "Send to API" button to send the processed CSV content to the specified API Gateway endpoint.
 4. **View API Response**: The response from the API will be displayed in the application.
+
+*Team*:
+
+- Trung Le
+- Rhys Howell
+- David Eason
 """)
 
 if __name__ == "__main__":
