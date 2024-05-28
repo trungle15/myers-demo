@@ -7,6 +7,7 @@ import io
 API_ENDPOINT = "***REMOVED***"
 
 def main():
+    st.set_page_config(page_title="Myers and Sons - AI POC Demo")
     st.title("Myers and Sons AI POC Demo")
 
     uploaded_file = st.file_uploader("Select a bid item list to get cost prediction! :building_construction:", type="csv")
