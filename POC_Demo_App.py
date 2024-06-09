@@ -46,7 +46,7 @@ def main():
         # Send the CSV content to the API endpoint
         if st.button("Send to API"):
             json_payload = json.dumps({"data": csv_content})
-            response = requests.post(API_ENDPOINT, data=json_payload, headers={"Content-Type": "application/json"})
+            response = requests.post(st.secrets["API_ENDPOINT"], data=json_payload, headers={"Content-Type": "application/json"})
             
             if response.status_code == 200:
                 # Display the response from the API
