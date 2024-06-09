@@ -5,8 +5,6 @@ import json
 import io
 from links import LINKS
 
-API_ENDPOINT = "***REMOVED***"
-
 def main():
     st.set_page_config(page_title="Myers and Sons - AI POC Demo")
     st.title("Myers and Sons AI POC Demo")
